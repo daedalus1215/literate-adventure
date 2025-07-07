@@ -1,1 +1,3 @@
 mcpdocs/*
+.env
+**/.env
