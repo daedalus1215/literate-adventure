@@ -397,6 +397,7 @@ dependencies = [
     { name = "isort" },
     { name = "langchain", extra = ["openai"] },
     { name = "langchain-mcp-adapters" },
+    { name = "langchain-openai" },
     { name = "langgraph" },
 ]
 
@@ -405,6 +406,7 @@ requires-dist = [
     { name = "isort", specifier = ">=6.0.1" },
     { name = "langchain", extras = ["openai"], specifier = ">=0.3.26" },
     { name = "langchain-mcp-adapters", specifier = ">=0.1.8" },
+    { name = "langchain-openai", specifier = ">=0.3.27" },
     { name = "langgraph", specifier = ">=0.5.1" },
 ]
 
